@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "swiftflags",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/BubiDevs/SwiftFlags.git",
+      "state" : {
+        "revision" : "9862d08828602e96eaafbb680ba0a53ee41c2dab",
+        "version" : "1.2.0"
+      }
+    }
+  ],
+  "version" : 2
+}

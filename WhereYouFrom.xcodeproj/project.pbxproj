@@ -11,6 +11,7 @@
 		E91699642B2120D200E2EB88 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91699632B2120D200E2EB88 /* ContentView.swift */; };
 		E91699662B2120D300E2EB88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E91699652B2120D300E2EB88 /* Assets.xcassets */; };
 		E91699692B2120D300E2EB88 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E91699682B2120D300E2EB88 /* Preview Assets.xcassets */; };
+		E91699712B212E1000E2EB88 /* SwiftFlags in Frameworks */ = {isa = PBXBuildFile; productRef = E91699702B212E1000E2EB88 /* SwiftFlags */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E91699712B212E1000E2EB88 /* SwiftFlags in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = WhereYouFrom;
+			packageProductDependencies = (
+				E91699702B212E1000E2EB88 /* SwiftFlags */,
+			);
 			productName = WhereYouFrom;
 			productReference = E916995E2B2120D200E2EB88 /* WhereYouFrom.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = E91699552B2120D200E2EB88;
+			packageReferences = (
+				E916996F2B212E1000E2EB88 /* XCRemoteSwiftPackageReference "SwiftFlags" */,
+			);
 			productRefGroup = E916995F2B2120D200E2EB88 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -342,6 +350,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E916996F2B212E1000E2EB88 /* XCRemoteSwiftPackageReference "SwiftFlags" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/BubiDevs/SwiftFlags.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E91699702B212E1000E2EB88 /* SwiftFlags */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E916996F2B212E1000E2EB88 /* XCRemoteSwiftPackageReference "SwiftFlags" */;
+			productName = SwiftFlags;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E91699562B2120D200E2EB88 /* Project object */;
 }
